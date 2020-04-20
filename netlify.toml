@@ -6,3 +6,8 @@
 [dev]
   dir = "dist"
   command = "yarn start"
+
+[[redirects]]
+  from = "/videos"
+  to = "/.netlify/functions/videos"
+  status = 200
