@@ -1,6 +1,6 @@
 const { youtube_v3 } = require('googleapis');
 
-const { API_KEY } = process.env;
+const { YOUTUBE_API_KEY } = process.env;
 
 const cache = {
   counter: 0,
@@ -13,7 +13,7 @@ exports.handler = async (event, context) => {
       q: 'dogs', 
       maxResults: 25,
       part: 'id,snippet',
-      auth: API_KEY,
+      auth: YOUTUBE_API_KEY,
     });
 
     cache.counter = cache.counter + 1;
