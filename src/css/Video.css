@@ -1,0 +1,11 @@
+.Video {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 14px;
+  margin-bottom: 20px;
+}
+
+.Video__Title {
+  margin-top: 0;
+}
+

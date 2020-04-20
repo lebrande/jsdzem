@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"
+  command = "yarn build"
+  functions = "functions"
+
+[dev]
+  dir = "dist"
+  command = "yarn start"

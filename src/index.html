@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanilla Framework</title>
+</head>
+<body>
+  <div class="Page">
+    <section class="Videos">
+      <h2 class="Videos__Title">Videos</h2>
+      <ul id="videos" class="Videos__List"></ul>
+    </section>
+  </div>
+
+  <template id="videoTemplate">
+    <li class="Video">
+      <h2 class="Video__Title"></h2>
+      <h4 class="Video__ChannelTitle"></h4>
+      <p class="Video__Description"></p>
+      <p class="Video__PublishDate"></p>
+      <img class="Video__Image"></img>
+    </li>
+  </template>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

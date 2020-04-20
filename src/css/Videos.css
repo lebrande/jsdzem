@@ -1,0 +1,10 @@
+.Videos {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.Videos__List {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
